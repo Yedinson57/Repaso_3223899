@@ -112,8 +112,9 @@ footer{
 }
 
 .img1{
-    width: 70%;
-    max-width: 400px;
+    width: 100%;
+    max-width: 600px;
+    display: block;
     margin: 20px auto;
     border-radius: 10px;
     box-shadow: 2px 4px 12px 2px rgba(0,0,0,0.3);
@@ -122,6 +123,7 @@ footer{
 .img2{
     width: 70%;
     max-width: 300px;
+    display: block;
     margin: 20px auto;
     border-radius: 10px;
     box-shadow: 2px 4px 12px 2px rgba(0,0,0,0.3);
