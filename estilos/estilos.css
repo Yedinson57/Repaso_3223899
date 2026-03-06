@@ -180,7 +180,7 @@ th{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
-    padding: 20px
+    padding: 20px;
 }
 
 .cardG{
@@ -204,8 +204,52 @@ th{
     color: goldenrod;
 }
 
+.container2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.ch2{
+    font-size: 45px;
+    text-align: center;
+    padding: 15px 0;
+}
+
 .form{
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+}
+
+.form h2{
+    font-size: 25px;
+}
+
+.cardR{
+    background: rgb(232, 232, 232);
+    margin: 20px 40px;
     display: flex;
-    margin: 0;
-    padding: 16px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 2px 4px 10px 2px rgba(0,0,0,0.3);
+}
+.cardL{
+    background: rgb(232, 232, 232);
+    margin: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 2px 4px 10px 2px rgba(0,0,0,0.3);
+}
+button{
+    background-color: green;
+    color: white;
 }
