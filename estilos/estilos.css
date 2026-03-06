@@ -203,3 +203,9 @@ th{
 .cardG:hover{
     color: goldenrod;
 }
+
+.form{
+    display: flex;
+    margin: 0;
+    padding: 16px;
+}
