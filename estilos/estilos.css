@@ -1,4 +1,7 @@
 body{
+    background-image: url(/Imagenes/minecraft.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
     margin: 0;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -160,7 +163,8 @@ th, td{
 }
 
 tr:hover{
-    color: #0055a0;
+    background-color: #02a1c1;
+    color: white;
 }
 
 th{
@@ -266,6 +270,6 @@ button{
 
 .button2{
     background-color: rgb(76, 7, 252);
-    padding: 1px 6px;
+    padding: 2px 7px;
     border-radius: 5px;
 }
