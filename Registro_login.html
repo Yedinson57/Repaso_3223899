@@ -6,12 +6,12 @@
     <link rel="stylesheet" href="/estilos/estilos.css">
     <title>Registro</title>
 </head>
-<body>
-    <h2 class="ch2">Bienvenido</h2>
+<body class="fondo">
+    <h2 class="ch2">Bienvenido!</h2>
     <div class="container2">
         <div class="cardR">
             <form class="form" action="index.html" autocomplete="on">
-                <h2>Registrarse</h2>
+                <h2>Formulario de Registro</h2>
                 <label >Nombre Completo</label>
                 <input type="text" name="Nombre" required>
                 <label for="">Tipo de documento</label>
@@ -37,34 +37,11 @@
                 <input type="radio">F
                 <label for="comentario">Deja tu comentario:</label>
                 <textarea id="comentario" name="comentario" rows="4" cols="50" placeholder="Escribe aquí..."></textarea><br>
+                <label for="">¿Ya estas registrado?</label>
+                <a href="login.html">Inciar Sesión</a>
+                
                 <button type="submit">Enviar</button>
                 </form>
-        </div>
-        <div class="cardL">
-            <form class="form" action="index.html" autocomplete="on">
-                <h2>Iniciar Sesión</h2>
-                <label >Nombre Completo</label>
-                <input type="text" name="Nombre" required>
-                <label for="">Tipo de documento</label>
-                <select name="" id="">
-                    <option value="">T.I</option>
-                    <option value="">C.C</option>
-                    <option value="">C.E</option>
-                </select>
-                <label for="">Numero de documento</label>
-                <input type="number" required>
-                <label for="">Correo electronico</label>
-                <input type="email" name="Correo" required>
-                <label for="">Numero de Telefono</label>
-                <input type="numer" min="7" max="10" required>
-                <label for="">Dirección</label>
-                <input type="text" name="Dirección" required>
-                <label for="">Fecha Nacimiento</label>
-                <input type="date" required>
-                <label for="comentario">Deja tu comentario:</label>
-                <textarea id="comentario" name="comentario" rows="4" cols="50" placeholder="Escribe aquí..."></textarea><br>
-                <button type="submit">Enviar</button>
-            </form>
         </div>
     </div>
 </body>
