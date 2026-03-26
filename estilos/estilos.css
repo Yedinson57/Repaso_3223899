@@ -159,6 +159,10 @@ th, td{
     text-align: center;
 }
 
+tr:hover{
+    color: #0055a0;
+}
+
 th{
     background: #1e3c72;
     color: white;
@@ -258,4 +262,10 @@ th{
 button{
     background-color: green;
     color: white;
+}
+
+.button2{
+    background-color: rgb(76, 7, 252);
+    padding: 1px 6px;
+    border-radius: 5px;
 }
